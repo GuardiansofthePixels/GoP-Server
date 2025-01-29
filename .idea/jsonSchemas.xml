@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="GoPModule">
+          <value>
+            <SchemaInfo>
+              <option name="generatedName" value="New Schema" />
+              <option name="name" value="GoPModule" />
+              <option name="relativePathToSchema" value="src/main/resources/mod-schem.json" />
+              <option name="schemaVersion" value="JSON Schema 202,012" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="module.json" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="src/test/resources/module.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

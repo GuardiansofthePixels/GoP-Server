@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "ModuleName": {
+      "type": "string",
+      "description": "Der Name des Moduls"
+    },
+    "Authors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Liste der Autoren des Moduls"
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Versionsnummer im Format MAJOR.MINOR.PATCH"
+    },
+    "description": {
+      "type": "string",
+      "description": "Eine kurze Beschreibung des Moduls"
+    },
+    "mainClass": {
+      "type": "string",
+      "description": "Der vollqualifizierte Name der Hauptklasse"
+    }
+  },
+  "required": ["ModuleName", "Authors", "version", "mainClass"],
+  "additionalProperties": false
+}
